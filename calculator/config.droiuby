@@ -1,0 +1,11 @@
+<app_descriptor>
+    <name>calculator</name>
+    <description>calculator</description>
+    <launcher_icon></launcher_icon>
+    <base_url></base_url>
+    <main>index.xml</main>
+    <framework>droiuby</framework>
+    <assets>
+    	<resource name="lib" type="lib"/>
+    </assets>
+</app_descriptor>

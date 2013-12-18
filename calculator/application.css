@@ -1,0 +1,14 @@
+/* place application wide css here */
+
+.btn {
+  width: 55dp;
+  height: wrap;
+}
+
+.btn-container {
+    orientation: horizontal;
+    width: match;
+    height: wrap;
+    gravity: center;
+    padding_top: 20dp;
+}

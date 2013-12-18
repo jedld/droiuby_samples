@@ -1,0 +1,30 @@
+<activity controller="index.rb#index">
+    <preload id="application_css" src="application.css" type="css"/>
+    <layout type="linear" width="match" height="match" orienation="vertical" background="#ffffff">
+    	<input id="display" type="text" width="match" height="wrap" hint="Enter Values" />
+        <layout type="linear" class="btn-container">
+            <button id="btn_7" class="btn" data-value="7">7</button>
+            <button id="btn_8" class="btn" data-value="8">8</button>
+            <button id="btn_9" class="btn" data-value="9">9</button>
+            <button id="btn_div" class="btn" data-value="div">/</button>
+        </layout>
+        <layout type="linear" class="btn-container">
+            <button id="btn_4" class="btn" data-value="4">4</button>
+            <button id="btn_5" class="btn" data-value="5">5</button>
+            <button id="btn_6" class="btn" data-value="6">6</button>
+            <button id="btn_mul" class="btn" data-value="mul">*</button>
+        </layout>
+        <layout type="linear" class="btn-container">
+            <button id="btn_1" class="btn" data-value="1">1</button>
+            <button id="btn_2" class="btn" data-value="2">2</button>
+            <button id="btn_3" class="btn" data-value="3">3</button>
+            <button id="btn_sub" class="btn" data-value="sub">-</button>
+        </layout>
+        <layout type="linear" class="btn-container">
+            <button id="btn_cancel" class="btn" data-value="cancel">C</button>
+            <button id="btn_0" class="btn" data-value="0">0</button>
+            <button id="btn_equal" class="btn" data-value="equals">=</button>
+            <button id="btn_add" class="btn" data-value="add">+</button>
+        </layout>
+    </layout>
+</activity>
