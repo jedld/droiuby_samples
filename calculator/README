@@ -1,0 +1,9 @@
+Sample Android calculator app written in Droiuby
+
+* shows simple layout management
+
+based on http://mrbool.com/how-to-create-a-calculator-app-for-android/28100
+
+To run, install droiuby gem and the doriuby app on your phone
+
+    drby gopack
