@@ -10,11 +10,8 @@ class Index < Activity
 
     @calc_display = V('#display')
 
-    V('.btn').each do |view|
-
-      view.on(:click) do |v|
-        handle_action(v)
-      end
+    V('.btn').on(:click) do |v|
+      handle_action(v)
     end
 
   end
