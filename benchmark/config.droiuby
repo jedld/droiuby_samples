@@ -1,0 +1,12 @@
+<app_descriptor>
+    <name>benchmark</name>
+    <description>benchmark</description>
+    <launcher_icon></launcher_icon>
+    <base_url></base_url>
+    <main>index.xml</main>
+    <framework>droiuby</framework>
+    <assets>
+    	<resource name="lib" type="lib"/>
+    	<resource name="vendor" type="vendor"/>
+    </assets>
+</app_descriptor>

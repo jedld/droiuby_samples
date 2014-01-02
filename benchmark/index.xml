@@ -1,0 +1,13 @@
+<activity controller="index.rb#index">
+    <preload id="application_css" src="application.css" type="css"/>
+    <layout type="linear" width="match" height="match" gravity="center" orientation="vertical">
+    	<button class="start-btn" data-test="tictactoe">Start Tic Tac Toe</button>
+    	<button class="start-btn" data-test="fibN20">Start Fib 20</button>
+    	<button class="start-btn" data-test="fibN25">Start Fib 25</button>
+    	<button class="start-btn" data-test="requireASdependencies">Require AS dependencies</button>
+    	<button class="start-btn" data-test="requireyaml">Require YAML</button>
+    	<button class="start-btn" data-test="report">Report</button>
+    	<t id="results">Results</t>
+    	<t id="benchmark_view">Results</t>
+    </layout>
+</activity>
