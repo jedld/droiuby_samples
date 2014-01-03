@@ -1,0 +1,6 @@
+<activity controller="index.rb#index">
+    <layout type="relative" width="match" height="match">
+        <layout id="canvas" type="frame" width="match" height="match"></layout>
+        <button id="clear" width ="100dip" height="50dip" parent_bottom="true" parent_center="true"> Clear </button>
+    </layout>
+</activity>
