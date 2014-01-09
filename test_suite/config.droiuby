@@ -3,7 +3,7 @@
     <description>test_suite</description>
     <launcher_icon></launcher_icon>
     <base_url></base_url>
-    <main>index.xml</main>
+    <main>tests.xml</main>
     <framework>droiuby</framework>
     <assets>
     	<resource name="lib" type="lib"/>
