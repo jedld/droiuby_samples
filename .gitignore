@@ -2,3 +2,5 @@
 build/
 chronic/.bundle
 chronic/vendor
+.bundle
+vendor
