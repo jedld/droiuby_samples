@@ -1,0 +1,12 @@
+<activity controller="app/activities/index.rb#index">
+    <preload id="application_css" src="app/views/styles/application.css" type="css"/>
+    <layout type="linear" width="match" height="match" orientation="vertical">
+    	<t>Enter Your Note Below</t>
+      <input id="note" hint="Enter Note Here" name="note" height="wrap"/>
+      <button id="add" height="wrap" width="match"> Add Note</button>
+      <layout type="scroll" width="match" height="match">
+        <layout id="items" type="linear" width="match" height="wrap" orientation="vertical">
+        </layout>
+      </layout>
+    </layout>
+</activity>
