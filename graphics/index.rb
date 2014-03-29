@@ -1,6 +1,8 @@
 #droiuby ruby script
 class Index < Activity
 
+  no_action_bar
+  
   def on_create
       # Array where we will store our points
       image_x = 0
@@ -8,7 +10,7 @@ class Index < Activity
       points = []
 
       # Download image and create a view when image has been downloaded
-      AssetHandler.download('http://developer.android.com/images/brand/Android_Robot_200.png').done { |image|
+      AssetHandler.download('assets/Android_Robot_200.png').done { |image|
           surface_view = surface { |v|
                v.on(:surface_created) { |holder|
                   @running = true
